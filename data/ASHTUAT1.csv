@@ -1,0 +1,397 @@
+"Helsingin asuntokuntien tulot ja verotus 31.12."
+
+"Alue","Tulotyyppi","1993","1994","1995","1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017"
+"091 Helsinki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,32276,32875,32758,33160,32076,33874,36148,37686,41252,39145,39820,40741,41591,42086,42735,43411,43331
+"091 Helsinki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16422,16807,16781,17096,17293,18140,19283,20334,21799,20636,21373,21848,22271,22453,22740,23077,23100
+"091 1 Eteläinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,38814,39509,39111,40281,38692,41501,44814,45975,49766,48489,49369,50739,52053,53028,54783,56661,57070
+"091 1 Eteläinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,21701,22158,21887,22660,22851,24220,25879,27004,28288,27375,28462,29107,29708,30098,30875,31779,32056
+"091 101 Vironniemen peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,42353,44472,42586,44408,42729,46269,49152,50318,54709,53744,54441,56425,57808,59454,62026,64262,64550
+"091 101 Vironniemen peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,22349,23756,22607,23706,23805,25290,26558,27658,29263,28417,29457,30362,31255,32043,33180,34185,34318
+"091 10 Kruununhaka","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,41474,43851,42116,43766,41491,44990,47963,48717,52654,51281,52541,55337,56203,58245,59982,61382,61423
+"091 10 Kruununhaka","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,22616,24256,23162,24223,23812,25354,26762,27475,28986,27893,29141,30309,30908,31904,32699,33241,33245
+"091 20 Kluuvi","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,37327,37542,37580,39622,42936,46555,51015,47755,58178,53139,51993,54744,67347,65283,74173,87234,91097
+"091 20 Kluuvi","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,21716,22004,20878,22641,25588,26586,29079,29319,32275,29982,30960,31943,39516,38476,42684,49596,52583
+"091 80 Katajanokka","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,44560,46356,43951,46059,44919,48479,50984,53294,57840,58043,57949,58462,59199,60599,63679,65667,65754
+"091 80 Katajanokka","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,21978,23106,21869,22974,23620,25068,26008,27805,29410,29093,29805,30266,30777,31370,32619,33530,33495
+"091 102 Ullanlinnan peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,41003,41202,41083,42726,40305,43717,48013,47905,51675,50916,51087,52776,54265,55867,56859,57731,59003
+"091 102 Ullanlinnan peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,23137,23282,23089,24183,24137,25917,28071,28632,29622,29015,29930,30695,31583,32262,32737,33114,34001
+"091 30 Kaartinkaupunki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,49641,53421,52311,55193,53836,55417,76128,65038,73056,67601,70484,73389,78385,81208,75212,82295,85654
+"091 30 Kaartinkaupunki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,25501,27677,26959,28818,29445,30794,41329,35416,38031,35153,37697,39302,42330,43696,40321,43801,46382
+"091 50 Punavuori","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,33755,34391,34796,36087,34013,36250,39264,39939,43034,40722,41950,43875,45099,46513,47709,48578,49426
+"091 50 Punavuori","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,20530,20852,21190,22097,22094,23370,24850,25748,26618,25211,26494,27436,28080,28687,29232,29623,30204
+"091 60 Eira","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,63849,65239,57649,65150,57292,66102,77325,65129,69630,75525,78827,81071,77549,77322,82362,82624,85006
+"091 60 Eira","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,30740,31753,28328,31822,29987,34811,40187,34302,35532,36992,39743,39974,38881,38912,41862,42672,43366
+"091 70 Ullanlinna","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,43398,43511,43144,44702,42053,45841,50596,50989,54637,54865,53970,55540,57081,58700,59680,60205,61558
+"091 70 Ullanlinna","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,23998,24159,23680,24709,24495,26287,28668,29777,30635,30436,30954,31657,32730,33418,33982,33998,34993
+"091 90 Kaivopuisto","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,108671,89282,100348,110546,110229,135879,109546,95349,94088,94076,88966,88135,88904,93806,98490,93363,96710
+"091 90 Kaivopuisto","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,49150,41615,44349,49473,54039,64934,51008,48522,44091,43772,42625,42732,42201,44121,45518,43622,45222
+"091 204 Hernesaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,28182,28732,30398,28071,27072,28792,32145,43854,51942,52698,51395,52871,56011,59395,58170,60248,61637
+"091 204 Hernesaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,19026,19322,19742,18525,19395,19621,22005,28543,31713,32229,32697,32637,34399,35884,35243,36255,37772
+"091 520 Suomenlinna","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,34309,36217,36008,35825,36375,36238,39804,42952,46319,47053,46525,46910,50761,51196,51572,52678,51119
+"091 520 Suomenlinna","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13791,14008,14040,14216,14514,14769,16518,17901,19124,19447,19465,19825,21183,21326,21104,22079,21462
+"091 531 Länsisaaret","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 531 Länsisaaret","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 103 Kampinmalmin peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,37428,38070,37974,38623,37161,39826,43092,44267,48746,46957,48090,48414,50034,50678,53284,56358,56071
+"091 103 Kampinmalmin peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,20448,20961,20837,21367,21623,22898,24564,25773,27319,26178,27469,27673,28332,28484,29658,31302,31223
+"091 40 Kamppi","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,33582,34050,34682,35384,33824,36761,39097,41033,45696,43072,44622,45303,46449,47467,50739,57922,56220
+"091 40 Kamppi","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,19956,20485,20764,21153,21466,22881,24176,25787,27398,25741,27383,27922,28466,29059,30741,35075,34083
+"091 130 Etu-Töölö","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,40716,41914,41513,42335,40730,43406,47865,48357,52961,52021,52891,54180,56432,56616,58710,59770,61048
+"091 130 Etu-Töölö","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,22880,23675,23278,23949,24150,25495,27523,28401,29878,29041,30216,30659,31817,31823,32682,33126,33893
+"091 201 Ruoholahti","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,36679,35179,34144,34547,34162,36449,38417,40390,43625,41018,41444,40921,41814,42169,43398,44157,44683
+"091 201 Ruoholahti","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15238,14712,14478,14897,15145,16104,17224,18591,19957,18934,19672,19636,20216,20530,20866,21347,21523
+"091 202 Lapinlahti","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 202 Lapinlahti","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 203 Jätkäsaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,38420,39186,38685,38018,37118,38716,41657,41841,46093,45283,45393,41013,44705,47079,50072,50702,51099
+"091 203 Jätkäsaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,17137,17479,17408,17529,17933,18447,20123,20762,22273,21687,22237,21397,22787,23592,24966,25455,26510
+"091 104 Taka-Töölön peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,34754,35038,34960,35994,34697,37214,38856,41651,45568,43402,44587,46311,47357,47760,48597,49511,49758
+"091 104 Taka-Töölön peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,20932,21160,21261,21830,22081,23448,24350,26271,27979,26447,27539,28580,29051,29259,29546,29918,30265
+"091 140 Taka-Töölö","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,34754,35038,34960,35994,34697,37214,38856,41651,45568,43402,44587,46311,47357,47760,48597,49511,49758
+"091 140 Taka-Töölö","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,20932,21160,21261,21830,22081,23448,24350,26271,27979,26447,27539,28580,29051,29259,29546,29918,30265
+"091 105 Lauttasaaren peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,39694,40538,39900,41023,40041,42129,45995,47259,49626,48964,50139,52123,52984,53931,55460,57164,57996
+"091 105 Lauttasaaren peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,22157,22472,22101,22827,23198,24157,26048,27121,27866,27318,28324,29077,29299,29740,30377,31044,31395
+"091 310 Lauttasaari (Ent.)","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,39694,40538,39900,41023,40041,42129,45995,47259,49626,48964,.,.,.,.,.,.,.
+"091 310 Lauttasaari (Ent.)","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,22157,22472,22101,22827,23198,24157,26048,27121,27866,27318,.,.,.,.,.,.,.
+"091 311 Kotkavuori","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,43593,45273,46086,46229,47487,48768,50171
+"091 311 Kotkavuori","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,26054,26899,27088,27036,27505,27975,28709
+"091 312 Vattuniemi","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,57436,61412,61771,63205,65289,67200,66671
+"091 312 Vattuniemi","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,30957,32676,32612,33268,34159,35058,34854
+"091 313 Myllykallio","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,51546,51490,52628,53803,54672,56326,57953
+"091 313 Myllykallio","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,28449,27954,28394,29063,29469,29988,30529
+"091 314 Koivusaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,0,..,..,..
+"091 314 Koivusaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,0,..,..,..
+"091 2 Läntinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,31891,32644,32340,32619,31657,33386,35292,36748,40311,37961,38525,39212,40017,40319,40923,41424,41031
+"091 2 Läntinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16620,17137,17005,17305,17546,18378,19354,20377,21929,20629,21254,21647,22048,22136,22368,22637,22461
+"091 201 Reijolan peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,30510,31115,30964,31126,30307,31627,33985,35636,39685,37037,38570,39222,39882,40427,41075,41773,41825
+"091 201 Reijolan peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16592,17047,16991,17289,17605,18347,19754,20778,22786,21198,21958,22294,22644,22795,23043,23385,23455
+"091 150 Meilahti","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,30811,31788,31567,31533,30538,31657,34658,36315,40629,37176,40158,40423,41447,42155,43192,44147,44644
+"091 150 Meilahti","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,17043,17695,17431,17612,17963,18493,20310,21279,23280,21374,25336,25414,25733,26075,26652,27137,27487
+"091 160 Ruskeasuo (Ent.)","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,31068,31206,31340,31613,31056,32511,34187,35864,39447,37241,.,.,.,.,.,.,.
+"091 160 Ruskeasuo (Ent.)","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15729,15992,16184,16629,17054,17954,18951,20003,21873,20478,.,.,.,.,.,.,.
+"091 161 Vanha Ruskeasuo","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,38122,39108,39371,39524,39991,40269,40771
+"091 161 Vanha Ruskeasuo","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,22705,23202,23426,23190,23089,23331,23826
+"091 162 Pikku Huopalahti","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,38216,38884,39163,39561,39874,40223,39926
+"091 162 Pikku Huopalahti","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,19010,19378,19709,19756,19841,20028,19897
+"091 180 Laakso","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27942,28717,27987,28397,27317,28784,31083,32646,37316,35938,36110,37234,38644,39733,40625,42220,41552
+"091 180 Laakso","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,18071,18420,18253,18463,18293,19271,20675,21806,24324,23181,23387,24002,24526,25051,25513,26050,25505
+"091 202 Munkkiniemen peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,39159,41387,40457,41602,40373,43590,45524,46528,49759,48689,49319,50085,51595,52651,54159,56663,55323
+"091 202 Munkkiniemen peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,21031,22285,21700,22414,22650,24239,25161,25984,27310,26565,27299,27669,28372,28885,29548,30811,30247
+"091 301 Vanha Munkkiniemi","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,40504,44220,42645,43853,42032,44910,47496,48265,51949,50837,52342,52595,55161,56160,58080,59669,58862
+"091 301 Vanha Munkkiniemi","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,21948,23997,22962,23603,23652,25086,26469,27191,28752,27877,29108,29160,30375,30845,31671,32487,32033
+"091 302 Kuusisaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,88482,102990,95105,113815,126299,165735,152857,144566,128321,122387,117432,121621,127587,137596,148073,145689,144792
+"091 302 Kuusisaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,32519,37068,34053,42274,48864,61372,53144,52147,45557,43500,42968,45078,48142,51044,54595,52668,53826
+"091 303 Lehtisaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,64221,64216,63638,67965,65438,71330,71083,69761,76269,77072,75793,80666,78081,77848,80684,108355,92769
+"091 303 Lehtisaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,27978,28151,27703,29405,28519,30088,30428,30957,32887,33469,33458,35899,35749,36663,37434,49506,43037
+"091 304 Munkkivuori","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,32701,32878,32835,33112,31958,33208,35456,37247,40515,39733,39720,40783,41472,42385,42778,43334,43274
+"091 304 Munkkivuori","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,19056,19373,19381,19664,19660,20391,21404,22532,24055,23488,23752,24345,24470,24803,24853,25176,25323
+"091 305 Niemenmäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,34440,34883,33777,33823,33781,35014,37234,39493,42219,41954,42125,42416,43398,42966,44637,46259,44603
+"091 305 Niemenmäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,20300,20355,19864,19717,20438,21243,22431,23928,25251,24779,25222,25106,25656,25675,26325,27284,26748
+"091 306 Talinranta","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,29916,30851,31911,30525,27934,28945,31336,33162,38470,33762,34000,33737,34946,35462,36317,36239,35006
+"091 306 Talinranta","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12912,13325,13759,13719,13485,13825,15211,16313,18648,16574,17090,16913,17292,17470,18320,18040,17644
+"091 203 Haagan peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,28842,29230,29188,29275,28338,29598,31155,32474,36026,33700,34081,34669,35270,35528,35945,36331,35850
+"091 203 Haagan peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16633,17023,17028,17255,17495,18095,18924,19984,21666,20155,20783,21113,21354,21414,21581,21783,21518
+"091 291 Etelä-Haaga","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,30156,30620,30714,30794,29766,31291,32722,34255,37842,35545,35932,36305,36579,37029,37462,38176,37600
+"091 291 Etelä-Haaga","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,17818,18264,18276,18525,18686,19532,20314,21669,23371,21839,22973,23228,23229,23430,23506,23841,23501
+"091 292 Kivihaka","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,28372,29281,30360,29584,28837,30939,32371,34255,37012,35016,36136,36099,36637,37016,37022,38284,37185
+"091 292 Kivihaka","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,17555,18338,18520,18801,18972,20337,21674,22656,24434,23013,22980,22700,22965,23140,22808,23850,23690
+"091 293 Pohjois-Haaga","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,26138,26160,26109,26144,25422,26240,28046,29148,33010,30669,31121,31948,32771,32830,33541,33228,33055
+"091 293 Pohjois-Haaga","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15113,15278,15331,15422,15759,16029,16855,17672,19479,18000,18378,18770,19103,19031,19304,19183,19045
+"091 294 Lassila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,30932,31777,31000,31435,30323,31558,32825,33727,36631,34390,34729,35562,36572,36729,36440,37132,36341
+"091 294 Lassila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16257,16866,16640,17085,17364,17832,18661,19394,20728,19358,19781,20328,20915,20904,21060,21324,20957
+"091 204 Pitäjänmäen peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,32531,32571,32750,32969,31970,33565,35887,37661,40925,38282,38276,39244,39891,39435,40146,39820,39496
+"091 204 Pitäjänmäen peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16166,16311,16473,16662,16860,17572,18654,19794,21126,19842,20297,20858,21244,20955,21142,21080,20951
+"091 320 Konala","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,34088,33914,34043,34853,33309,35225,37827,39383,41892,39504,39954,40539,41282,41033,41777,41655,41415
+"091 320 Konala","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,17093,17013,17205,17537,17475,18195,19423,20449,21485,20458,20953,21312,21611,21477,21927,21693,21639
+"091 461 Pajamäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,28885,29305,29300,28771,27985,29398,31440,33418,35776,33483,34098,34294,34891,35008,35292,35392,35758
+"091 461 Pajamäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16865,17246,17171,17424,17748,18559,19698,20838,22086,20563,21092,21291,21682,21617,21420,21789,21925
+"091 462 Tali","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,28052,27552,27513,26846,26266,28004,30046,32203,35915,31671,32296,33572,33058,32123,32569,32121,31412
+"091 462 Tali","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12081,12111,12339,12387,12646,13374,14270,15621,17004,14960,15722,16262,16163,15568,15568,16060,16011
+"091 463 Reimarla","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,32666,32685,32793,32896,31927,32884,35088,36347,39626,37159,36611,37798,38229,37623,38305,37774,36992
+"091 463 Reimarla","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16319,16482,16598,16624,16722,17094,17902,18891,20156,18873,18914,19425,19652,19419,19278,19068,18758
+"091 464 Marttila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,49181,48670,50247,54222,55773,58090,60375,59592,65229,63852,65505,64465,65349,67611,66977,69242,65766
+"091 464 Marttila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,18181,18430,18810,19600,21124,21824,23000,23705,25297,25324,26859,26457,28705,28677,27216,28464,27794
+"091 465 Pitäjänmäen yritysalue","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,32695,33135,33559,33361,32802,35090,37358,40347,45406,42033,40398,42048,42818,41911,42926,42061,41945
+"091 465 Pitäjänmäen yritysalue","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15230,15573,15858,15852,16470,17733,19114,20695,22712,21251,21729,22949,23550,22922,23544,23332,23136
+"091 205 Kaarelan peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,30599,31249,30779,30723,29879,31497,33321,34950,38512,35678,35998,36650,37421,37640,37802,37651,37578
+"091 205 Kaarelan peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13984,14406,14258,14396,14626,15326,16208,17270,18681,17361,17933,18360,18746,18816,18877,18806,18774
+"091 331 Kannelmäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,26480,26462,26449,26157,25253,26336,28149,29523,33048,30083,30092,30505,31262,31222,31312,31018,31356
+"091 331 Kannelmäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13579,13694,13723,13728,13897,14387,15319,16259,17844,16305,16691,16998,17398,17338,17360,17197,17243
+"091 332 Maununneva","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,50150,55878,50812,52656,52411,55731,58801,62525,65424,64063,66084,68251,71631,69265,70373,71362,71163
+"091 332 Maununneva","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,18864,20911,19026,19746,20119,21118,22265,24048,24592,24315,25405,26545,27932,27198,27193,27788,27651
+"091 333 Malminkartano","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,28844,28803,28436,28223,27122,27912,30015,31553,35553,31991,32371,32900,33191,33978,33991,34049,33466
+"091 333 Malminkartano","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12444,12587,12531,12605,12698,13093,14042,15099,16724,15038,15580,15872,16035,16409,16416,16428,16239
+"091 334 Hakuninmaa","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,47363,48395,48613,48580,49464,55244,55230,57891,59994,58817,60426,61649,61620,62880,63388,63725,61229
+"091 334 Hakuninmaa","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16551,17241,17541,17830,18616,20818,21202,22302,22935,22763,23876,24700,24644,24889,25486,25337,24704
+"091 335 Kuninkaantammi","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,42312,43520
+"091 335 Kuninkaantammi","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,18424,21447
+"091 336 Honkasuo","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,30508
+"091 336 Honkasuo","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,17902
+"091 3 Keskinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,24419,24836,24825,24804,23871,24959,26907,28565,33009,30298,31180,32320,33340,33985,34798,35721,36196
+"091 3 Keskinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15111,15427,15382,15373,15579,16180,17275,18524,20818,18913,19738,20313,20790,21061,21391,21869,22168
+"091 301 Kallion peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,24161,24560,24525,24517,23469,24763,26686,28231,32447,29687,30303,31150,32070,32958,33882,35128,35708
+"091 301 Kallion peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16288,16649,16600,16622,16718,17466,18647,19960,22335,20211,20995,21485,21917,22277,22701,23462,23855
+"091 100 Sörnäinen (Ent.)","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27057,27286,27409,27567,26696,28297,30548,31607,36220,33392,.,.,.,.,.,.,.
+"091 100 Sörnäinen (Ent.)","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16545,16787,16930,17032,17271,18164,19397,20360,22705,20919,.,.,.,.,.,.,.
+"091 101 Vilhonvuori","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,33992,34852,35670,35873,36028,36669,36633
+"091 101 Vilhonvuori","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,21739,22282,22732,22768,22694,23090,23276
+"091 102 Kalasatama","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,28541,37983,43611,48752,50970,53643
+"091 102 Kalasatama","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,15941,20698,22716,25276,26221,27186
+"091 103 Sompasaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..
+"091 103 Sompasaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..
+"091 104 Hanasaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..
+"091 104 Hanasaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..
+"091 111 Siltasaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,29493,30018,30046,30836,29997,30890,32780,35362,40090,38330,38621,40445,41120,43967,43736,44889,46597
+"091 111 Siltasaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,18680,18887,18976,19405,19822,20339,21558,23204,25841,24399,25177,26015,26266,27726,27170,27740,28544
+"091 112 Linjat","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,22948,23228,23157,23038,22109,23197,25025,26959,30989,28045,28868,29849,30145,30718,31460,32030,32703
+"091 112 Linjat","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15806,16182,16032,16044,16118,16612,17864,19461,21691,19326,20214,20826,21006,21272,21625,22015,22518
+"091 113 Torkkelinmäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,21691,22273,22058,21829,20421,21830,23590,24841,28862,26058,26482,27037,27949,28349,29052,31086,31112
+"091 113 Torkkelinmäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15860,16356,16186,16000,15855,16867,17893,19109,21660,19277,19878,20493,21027,21142,21831,23370,23363
+"091 302 Alppiharjun peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,21540,22058,21654,21443,20462,21402,22948,24149,28150,25268,25773,26763,27218,27563,27931,28584,28892
+"091 302 Alppiharjun peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15357,15719,15523,15397,15644,16181,17235,18313,20691,18444,19206,19811,19966,20402,20583,21021,21343
+"091 121 Harju","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,21518,21938,21425,21162,20036,20923,22400,23523,27503,24396,25045,25905,26522,26939,27249,27706,28172
+"091 121 Harju","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15391,15611,15430,15263,15468,15900,16977,17995,20317,17910,18741,19353,19573,20020,20234,20579,21099
+"091 122 Alppila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,21579,22263,22049,21930,21211,22236,23906,25264,29279,26795,27026,28235,28413,28643,29093,30073,30125
+"091 122 Alppila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15299,15904,15681,15626,15946,16664,17675,18867,21335,19365,19997,20577,20629,21057,21164,21750,21745
+"091 303 Vallilan peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,22249,22311,22356,22367,21335,22290,24744,26462,31506,28812,30508,31680,32900,33707,34648,36238,36935
+"091 303 Vallilan peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14002,14068,14089,14136,14345,14950,16368,17577,20000,18088,19317,20008,20592,20845,21150,21824,22220
+"091 210 Hermanni (Ent.)","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,23505,23522,23581,23608,22992,24258,26893,28620,34270,32500,.,.,.,.,.,.,.
+"091 210 Hermanni (Ent.)","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14009,14124,14203,14228,14596,15307,16786,18054,20337,18941,.,.,.,.,.,.,.
+"091 211 Hermanninmäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,34344,35892,36865,37558,37193,37937,38061
+"091 211 Hermanninmäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,19987,20952,21512,21852,21520,21794,21901
+"091 212 Hermanninranta","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..
+"091 212 Hermanninranta","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..
+"091 213 Kyläsaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,7675,7292,6801,7500,6830,7007
+"091 213 Kyläsaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,6822,5820,5512,5956,5580,5711
+"091 220 Vallila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,21689,21781,21810,21816,20581,21383,23733,25407,30002,26818,28313,29335,31313,32553,34260,36481,37581
+"091 220 Vallila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13998,14042,14034,14092,14221,14769,16154,17325,19795,17569,18880,19434,20353,20712,21421,22355,22952
+"091 304 Pasilan peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27777,27867,27452,27556,26396,27480,29037,30352,35357,32731,33796,34869,36158,36108,36437,36421,37092
+"091 304 Pasilan peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14238,14272,14142,14206,14361,15056,15791,16674,19026,17645,18595,19218,19820,19830,19784,19807,20062
+"091 171 Länsi-Pasila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,30520,30748,30119,30078,28875,29977,31634,33442,38710,36448,36832,38992,40189,40373,41074,41519,42004
+"091 171 Länsi-Pasila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14687,14916,14814,14805,14954,15781,16709,17875,20487,19405,19919,21042,21579,21750,21926,22093,22317
+"091 172 Pohjois-Pasila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 172 Pohjois-Pasila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 173 Itä-Pasila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,24810,24744,24565,24845,23859,24966,26354,27160,31626,28591,30288,30003,31264,30928,30869,30237,30967
+"091 173 Itä-Pasila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13698,13507,13373,13514,13733,14297,14802,15393,17364,15691,17043,16994,17598,17447,17175,16909,17176
+"091 174 Keski-Pasila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 174 Keski-Pasila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 305 Vanhankaupungin peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27954,28668,29050,28926,28376,29152,31185,33488,37934,35135,36107,37581,38846,39363,40356,40849,41075
+"091 305 Vanhankaupungin peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14282,14809,14901,14872,15261,15659,16654,18126,20212,18588,19203,19786,20372,20549,20980,21194,21333
+"091 231 Toukola","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,28025,29494,30582,30613,31384,30070,29134,31117,35670,32514,33214,34173,35386,35473,36210,37814,37532
+"091 231 Toukola","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15554,16313,16173,15641,16502,16325,16642,17806,19967,18494,18752,19322,19809,19723,19934,20774,21061
+"091 232 Arabianranta","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,36109,41088,45528,43071,44420,45716,47679,48648,49960,49898,49864
+"091 232 Arabianranta","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,18725,21439,23258,21500,22177,22482,23437,23895,24378,24329,24239
+"091 240 Kumpula","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27492,28283,27748,26516,25682,26318,26580,28006,32787,29038,29609,30963,31677,31658,31431,32079,32423
+"091 240 Kumpula","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12940,13548,13150,12807,13092,13330,13710,14701,17074,14886,15356,16194,16240,16404,16524,16758,16913
+"091 250 Käpylä","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,29433,30059,30531,30743,29963,31271,33334,35337,39127,36824,37797,39119,40132,40424,41444,42168,42803
+"091 250 Käpylä","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15588,15975,16291,16535,16772,17374,18413,19780,21618,20264,20947,21499,22209,22010,22374,22731,23231
+"091 260 Koskela","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,24861,25359,25615,25575,23941,26086,27550,28599,32695,29349,29090,29506,30319,30309,30756,30544,29974
+"091 260 Koskela","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12132,12668,12567,12649,12694,13495,14032,14946,16858,15129,15314,15706,16015,15931,16220,16068,15667
+"091 270 Vanhakaupunki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,26372,25276,25651,25541,26514,24766,28001,28694,32569,23624,26230,35056,36181,36807,36983,37678,40258
+"091 270 Vanhakaupunki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13788,13865,14707,14263,15428,14905,16286,16925,18925,15339,16130,17528,17887,18427,18468,19296,20203
+"091 4 Pohjoinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,40436,41433,41639,42432,41687,43913,46437,48134,50916,49845,51014,52518,53459,53701,54470,54958,54514
+"091 4 Pohjoinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,17738,18337,18508,19014,19307,20332,21504,22422,23548,23022,23825,24408,24911,25005,25302,25494,25367
+"091 401 Maunulan peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27376,27788,27825,27994,26334,27607,29234,30596,34439,32036,32309,32982,33761,34173,34586,35009,34726
+"091 401 Maunulan peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14320,14742,14876,15155,15034,15682,16633,17508,19365,17865,18314,18648,19185,19239,19340,19499,19385
+"091 281 Pirkkola","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,50710,51403,52036,53693,52609,54304,58394,63952,67260,70178,69051,69845,72650,70738,70618,69665,69226
+"091 281 Pirkkola","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,19190,19889,20096,20440,20617,21657,23499,26326,28606,29015,29405,29743,30961,30402,29508,29099,28832
+"091 282 Maunula","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,23703,23995,24021,24175,22551,23641,25094,26135,29906,26930,27061,27613,28348,29037,29587,30079,30074
+"091 282 Maunula","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13126,13450,13603,13895,13643,14236,15093,15766,17701,15894,16192,16482,16986,17153,17381,17600,17582
+"091 283 Metsälä","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,53368,54608,53430,53132,50595,54025,55061,56872,60855,61461,64285,64509,65101,64593,64926,65123,63227
+"091 283 Metsälä","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,20300,21363,20990,21062,21720,22631,23666,25019,26106,25463,27271,27528,28126,28222,28023,27987,27680
+"091 286 Maunulanpuisto","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 286 Maunulanpuisto","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 402 Länsi-Pakilan peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,54216,56195,56939,57695,58759,61694,65260,66522,68348,69110,71787,74419,76707,76867,78371,78293,78287
+"091 402 Länsi-Pakilan peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,21376,22141,22421,22903,23543,24702,26124,26657,27268,27736,28926,29646,30512,30446,30990,31142,31124
+"091 341 Länsi-Pakila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,54216,56195,56939,57695,58759,61694,65260,66522,68348,69110,71787,74419,76707,76867,78371,78293,78287
+"091 341 Länsi-Pakila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,21376,22141,22421,22903,23543,24702,26124,26657,27268,27736,28926,29646,30512,30446,30990,31142,31124
+"091 403 Tuomarinkylän peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,55802,57340,57750,59625,59362,62862,66763,69500,70826,70878,72837,74049,75261,75647,77105,77897,77505
+"091 403 Tuomarinkylän peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,19150,19820,19991,20793,21174,22620,24119,25371,25982,26003,27075,27462,28016,28320,29030,29377,29416
+"091 351 Paloheinä","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,59371,61798,61996,64524,63835,68132,72202,74705,75452,76172,78302,80127,81407,81871,83752,84688,84909
+"091 351 Paloheinä","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,20415,21368,21263,22310,22507,24125,25574,26782,27184,27282,28495,29295,29898,30390,31235,31518,31855
+"091 352 Torpparinmäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,48007,48112,48885,49380,49905,51767,55317,58694,60981,59525,61193,61461,62599,62910,63488,63852,62273
+"091 352 Torpparinmäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16319,16538,17171,17458,18191,19215,20784,22201,23239,23010,23786,23438,23917,23899,24305,24700,24152
+"091 354 Haltiala","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 354 Haltiala","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 404 Oulunkylän peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,35338,35713,35787,36280,35298,37307,39344,40524,43465,41568,42188,43728,44309,44646,45306,45747,45354
+"091 404 Oulunkylän peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16913,17416,17566,17956,18152,19125,20132,20894,22266,21256,21787,22534,22806,23024,23176,23371,23146
+"091 284 Patola","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,33819,34460,34404,34828,33786,35443,37868,38986,41941,40118,40694,42120,42635,43308,43868,44314,44077
+"091 284 Patola","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,17117,17715,17689,18008,18209,19023,20299,21037,22421,21290,21855,22620,22806,23210,23354,23494,23290
+"091 285 Veräjämäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,44760,44709,45573,46561,45868,49589,50278,51168,53711,51932,52807,54810,56146,56110,57313,58219,56909
+"091 285 Veräjämäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,18799,19238,19933,20701,21062,22881,23024,23727,24554,24155,24822,25552,26091,26035,26208,26772,26165
+"091 287 Veräjälaakso","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27655,26855,26771,26837,25807,26899,28881,30952,34774,32048,32325,34052,34065,32595,32823,32909,32274
+"091 287 Veräjälaakso","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,11834,11846,11985,12077,11984,12359,13327,14326,16488,15181,15282,15960,16194,15596,15613,15603,15603
+"091 405 Itä-Pakilan peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,51470,52689,52916,54361,55997,58293,61545,64926,66817,67940,70889,71424,72471,72915,73198,73871,72618
+"091 405 Itä-Pakilan peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,19472,20075,20189,20823,21562,22479,23618,25028,25641,26164,27464,27721,28406,28255,28492,28434,28337
+"091 342 Itä-Pakila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,52516,53740,53898,55312,57117,59401,62696,66059,67821,69070,72005,72341,73512,73662,74218,74521,73667
+"091 342 Itä-Pakila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,20110,20765,20835,21432,22174,23055,24226,25680,26339,26999,28277,28409,29213,29016,29352,29123,29182
+"091 353 Tuomarinkartano","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 353 Tuomarinkartano","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 5 Koillinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,31722,32202,32057,32072,31257,32892,35069,36675,40169,37803,38323,39142,39598,39980,40152,40258,39579
+"091 5 Koillinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13929,14248,14286,14457,14694,15363,16407,17465,18805,17712,18354,18836,19087,19192,19326,19393,19162
+"091 501 Latokartanon peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,26383,27045,27112,27075,26772,28304,30566,32093,36585,33669,34120,35167,35642,35953,36406,36547,35998
+"091 501 Latokartanon peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12886,13279,13280,13480,13944,14461,15512,16569,18254,16718,17317,17765,17956,18038,18316,18378,18200
+"091 361 Viikinranta","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,36676,39199,39378,36443,40907,45836,52815,57853,61696,59750,63222,62088,61422,63215,63980,64629,63148
+"091 361 Viikinranta","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16833,17603,17636,16231,20645,23088,26636,28892,30906,29931,31177,31119,30961,31408,32016,31860,31062
+"091 362 Latokartano","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,28413,30555,31274,31306,30851,33046,34668,36900,41651,38495,38787,39623,40321,40323,40830,40933,40591
+"091 362 Latokartano","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12031,13023,13127,13812,13983,14633,15479,16794,18450,16883,17610,17967,18212,18165,18556,18652,18564
+"091 363 Viikin tiedepuisto","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,19163,17394,15918,14645,13455,15051,15568,15882,22523,15961,19108,20693,20321,20579,21057,20714,20190
+"091 363 Viikin tiedepuisto","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,7438,8442,7675,7236,7537,7845,8152,9216,12210,8299,10271,11318,11095,11155,11298,11375,11246
+"091 364 Viikinmäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27725,26061,26291,26762,30443,30764,33302,34903,38812,36367,38843,39396,40444,41783,41890,41786,41048
+"091 364 Viikinmäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13391,12673,12899,13144,15532,15722,17193,17948,19765,18099,18960,19047,19608,19803,19713,19901,19711
+"091 383 Pihlajamäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,25982,26912,26447,26204,25095,26148,27900,28315,31838,28998,29213,30337,30511,30565,30558,30959,30380
+"091 383 Pihlajamäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13196,13727,13716,13871,13981,14372,15181,15822,17020,15617,16184,16617,16697,16697,16794,17005,16751
+"091 386 Pihlajisto","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,25998,25751,25997,25674,24458,25253,27130,27710,30683,29010,27801,28532,28970,29162,29685,28914,28260
+"091 386 Pihlajisto","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13313,13103,13254,13163,13327,13647,14617,15262,16862,15808,15425,15888,16128,16434,16896,16128,16020
+"091 502 Pukinmäen peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,28040,28680,28749,28579,27321,28898,30685,31785,35140,32285,32883,33446,33722,33771,33841,33643,33091
+"091 502 Pukinmäen peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13935,14337,14502,14584,14601,15362,16424,17231,18773,17364,17971,18336,18353,18291,18260,18298,17893
+"091 370 Pukinmäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,28040,28680,28749,28579,27321,28898,30685,31785,35140,32285,32883,33446,33722,33771,33841,33643,33091
+"091 370 Pukinmäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13935,14337,14502,14584,14601,15362,16424,17231,18773,17364,17971,18336,18353,18291,18260,18298,17893
+"091 503 Malmin peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,33275,33781,33296,33209,32502,34116,36590,38633,41771,39724,40194,40685,41357,41453,41413,41469,40881
+"091 503 Malmin peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14518,14860,14813,14868,15097,15853,17109,18328,19667,18705,19353,19764,20189,20210,20265,20323,20148
+"091 381 Ylä-Malmi","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,25873,26426,25954,25453,24116,25027,26922,28454,31799,29191,29231,29342,29910,29450,29206,29251,28609
+"091 381 Ylä-Malmi","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12700,13123,13116,13005,13058,13599,14761,15688,17316,15870,16394,16434,16841,16592,16500,16501,16282
+"091 382 Ala-Malmi","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27895,27898,27462,27381,26374,27436,29657,31191,34462,31395,32211,32541,32876,32655,32394,32215,32032
+"091 382 Ala-Malmi","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12098,12236,12207,12287,12501,12935,14083,15034,16501,15091,16029,16535,16792,16676,16511,16317,16296
+"091 384 Tattariharju","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 384 Tattariharju","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 385 Malmin lentokenttä","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,50170,48541,36856,35364,35966,39128,41074,43589,46693,44519,44771,45450,45974,46162,45719,46403,45321
+"091 385 Malmin lentokenttä","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,17478,17098,14163,14029,14381,15651,16711,18051,19391,18716,19113,19779,19997,19870,20045,20671,20222
+"091 391 Tapaninvainio","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,43488,44357,44412,45091,45305,47716,50877,53300,55238,55033,55987,57178,58260,58799,58732,58505,58167
+"091 391 Tapaninvainio","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,17297,17784,17914,18235,18626,19688,20941,22370,23353,23177,23835,24508,25089,25131,25370,25297,25265
+"091 392 Tapanila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,32767,33454,33645,33226,32382,33746,36756,38836,42840,40557,41366,42022,42878,43423,43818,44277,43071
+"091 392 Tapanila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14464,14779,15052,15048,15140,15747,17281,18676,20074,19030,19721,20138,20688,21102,21250,21627,21194
+"091 504 Suutarilan peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,35644,36047,36176,36110,35584,37505,39585,41499,44595,42649,43493,44117,45024,45262,45485,45794,45034
+"091 504 Suutarilan peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14000,14235,14361,14570,14843,15666,16692,17727,18796,18116,18811,19226,19666,19802,19934,20128,19978
+"091 401 Siltamäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,33948,34025,33972,33600,33287,34920,36745,38218,41318,39475,39490,40021,41032,41062,41363,41702,40992
+"091 401 Siltamäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14257,14344,14476,14548,14846,15442,16444,17352,18414,17646,17640,17961,18423,18470,18643,18832,18675
+"091 403 Töyrynummi","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,38306,39253,39621,40005,39177,41504,43966,46577,49739,47604,53243,54256,54915,55773,55835,56039,55539
+"091 403 Töyrynummi","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13657,14088,14209,14600,14839,15967,17024,18227,19319,18762,21374,22060,22473,22838,22883,23087,23066
+"091 505 Puistolan peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,37584,38203,38157,38605,37827,39793,42124,44002,47050,45390,46131,47381,47764,48128,48256,48197,47569
+"091 505 Puistolan peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14893,15200,15255,15610,15871,16575,17499,18645,19653,19025,19759,20422,20665,20796,20951,20919,20725
+"091 402 Tapulikaupunki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,30870,31200,30777,30630,29790,31379,33458,35265,38654,36347,36733,37769,38281,38578,38453,38320,37526
+"091 402 Tapulikaupunki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13413,13666,13600,13747,14046,14623,15525,16682,17911,16839,17375,18005,18274,18371,18315,18181,17916
+"091 411 Puistola","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,45074,45931,46225,47193,46550,49173,51472,53461,55967,55652,56650,58430,59460,59989,61102,60970,60465
+"091 411 Puistola","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16567,16939,17070,17523,17794,18716,19555,20832,21614,21594,22446,23252,23768,23930,24508,24559,24474
+"091 412 Heikinlaakso","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,45222,46045,45699,47209,46710,48586,51784,53836,56555,55517,57529,59216,60500,60828,60474,60257,59195
+"091 412 Heikinlaakso","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15565,15813,15899,16615,16690,17334,18497,19375,20237,19884,21082,21667,21894,22204,22375,22454,22060
+"091 413 Tattarisuo","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,35170,..,..,..,..,..,..,..
+"091 413 Tattarisuo","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,16135,..,..,..,..,..,..,..
+"091 415 Alppikylä","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,36609,34563,31970,33637,36950,38760,40753
+"091 415 Alppikylä","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,16608,16368,15733,16151,17244,17671,18292
+"091 506 Jakomäen peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,22455,22648,22359,22404,20975,22270,23827,24227,27796,24262,24618,25207,24610,25975,26099,26359,25287
+"091 506 Jakomäen peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,10594,10832,10866,10946,10892,11259,11861,12436,13878,12053,12573,13081,12872,13191,13293,13404,13022
+"091 414 Jakomäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,22455,22648,22359,22404,20975,22270,23827,24227,27796,24262,24618,25207,24610,25975,26099,26359,25287
+"091 414 Jakomäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,10594,10832,10866,10946,10892,11259,11861,12436,13878,12053,12573,13081,12872,13191,13293,13404,13022
+"091 6 Kaakkoinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,34705,35325,35707,36278,34885,36759,39088,40865,43851,41834,42741,43351,43955,44523,44740,44695,44511
+"091 6 Kaakkoinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16792,17195,17443,17853,17896,18812,20021,21161,22332,21298,22074,22371,22729,22929,23046,23145,23176
+"091 601 Kulosaaren peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,51144,49262,49394,51029,48557,50990,54270,56217,58267,58966,62296,63922,64592,65929,67470,67113,65304
+"091 601 Kulosaaren peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,25011,24234,24073,24802,24862,25836,27178,28838,29040,29349,31567,31995,32143,32465,33415,32935,32005
+"091 190 Mustikkamaa-Korkeasaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 190 Mustikkamaa-Korkeasaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 420 Kulosaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,51291,49397,49495,51138,48643,51097,54357,56306,58347,59053,62324,63946,64610,66001,67573,67198,65374
+"091 420 Kulosaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,25093,24312,24151,24857,24923,25912,27244,28895,29087,29399,31617,32032,32176,32515,33473,32999,32029
+"091 602 Herttoniemen peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,30042,30539,30958,31183,29787,31402,33511,35028,38532,35852,36408,37050,37670,38129,38351,38837,39081
+"091 602 Herttoniemen peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15347,15720,15976,16184,16156,16989,18152,19171,20747,19250,19882,20209,20606,20784,20847,21144,21381
+"091 431 Länsi-Herttoniemi","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,26168,26351,26785,26865,25781,26704,28405,29455,33202,30330,30641,31704,32700,33253,33720,34178,34182
+"091 431 Länsi-Herttoniemi","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14800,14936,15155,15246,15377,15906,16966,17755,19652,17891,18466,18959,19472,19706,19747,20029,20137
+"091 432 Roihuvuori","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,25167,25282,25373,24999,24028,25284,26659,27586,31265,28339,28518,29003,29064,29458,29735,30123,30141
+"091 432 Roihuvuori","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13554,13831,13842,13763,13826,14453,15265,15944,17550,15856,16251,16567,16686,16895,17009,17237,17253
+"091 433 Herttoniemen yritysalue","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,36821,40058,36178,38548,40602
+"091 433 Herttoniemen yritysalue","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,22092,22269,21125,22089,23937
+"091 434 Herttoniemenranta","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,32606,33550,33902,34733,33234,35130,37578,40339,43744,40896,41700,42488,42883,42750,42765,42722,42643
+"091 434 Herttoniemenranta","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14893,15496,15877,16382,16279,17320,18635,20227,21963,20493,21179,21556,21939,21751,21770,21916,21995
+"091 440 Tammisalo","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,63887,66327,66980,67592,64090,68737,74659,75192,76122,76185,79039,78716,80385,82678,83355,85161,89783
+"091 440 Tammisalo","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,25716,26642,27179,27549,26907,28566,30473,31365,31097,31178,32541,32248,32554,33901,34374,35159,37104
+"091 603 Laajasalon peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,39252,40840,41067,41956,40865,43090,45601,47818,50140,48652,49620,50032,50905,51605,51564,50012,49279
+"091 603 Laajasalon peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,17243,17988,18270,18914,19062,20094,21343,22578,23329,22739,23425,23653,24069,24293,24362,24151,24019
+"091 480 Vartiosaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 480 Vartiosaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 491 Yliskylä","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,35515,36834,36645,37025,36443,38136,39640,41190,43656,41893,42317,43077,43754,43901,44206,43005,42220
+"091 491 Yliskylä","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,17093,17701,17854,18229,18641,19416,20286,21353,22203,21316,21732,22134,22548,22467,22603,22380,22190
+"091 492 Jollas","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,53215,55884,57828,60048,57408,61248,68072,72877,74603,74588,78451,77417,77668,81506,79621,80176,80762
+"091 492 Jollas","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,18269,19494,20200,21197,20833,22530,25096,26806,27496,27724,29334,29177,29211,30604,30235,30199,30645
+"091 493 Tullisaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,41092,41932
+"091 493 Tullisaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,22528,22722
+"091 494 Kruunuvuorenranta","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,73481,78169,71924,78007,72531,83674,86504,92426,85677,88594,92575,87221,90477,86996,89258,88894,90709
+"091 494 Kruunuvuorenranta","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,26951,28360,25276,28101,26226,30492,30964,33839,30989,32389,33618,31517,32901,32712,32392,32453,32674
+"091 495 Hevossalmi","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,41903,43262,45519,47777,46061,47856,50373,52419,55840,53040,54255,55593,57654,58049,58539,58764,57472
+"091 495 Hevossalmi","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15723,16357,17431,18669,18393,19028,20201,21204,22164,21636,22417,22961,23657,24031,24591,25112,24517
+"091 500 Villinki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 500 Villinki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 510 Santahamina","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,38150,39613,38586,39792,37575,38357,43489,46235,48048,48584,49992,51995,55291,55546,55438,54220,53708
+"091 510 Santahamina","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14234,15043,14631,15148,15477,16425,18608,19574,20562,20030,20951,21436,21994,21265,21756,21770,21624
+"091 532 Itäsaaret","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 532 Itäsaaret","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 7 Itäinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,28625,29084,29152,29349,28534,29941,31848,33153,36332,33980,34234,34832,35472,35603,35523,35569,35055
+"091 7 Itäinen suurpiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13379,13646,13785,13971,14167,14780,15725,16559,17865,16737,17208,17517,17833,17862,17847,17860,17658
+"091 701 Vartiokylän peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,32674,32901,32841,33488,32663,34152,36351,37402,40305,38330,38690,39191,40008,40089,40019,40134,39773
+"091 701 Vartiokylän peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15386,15659,15798,16172,16391,17116,18167,18908,20094,19148,19700,19886,20430,20380,20410,20480,20267
+"091 451 Vartioharju","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,41540,42317,42983,44467,44026,46490,49820,51670,54238,53129,53867,54923,56553,56838,56742,57383,56790
+"091 451 Vartioharju","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16793,17295,17728,18443,18655,19582,21079,22179,22779,22528,23412,23860,24758,24946,25255,25431,25179
+"091 452 Puotila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27378,27047,26481,26431,25464,26738,28319,29620,32422,30160,30284,30575,31044,31354,31375,31405,30856
+"091 452 Puotila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15158,15122,14757,14757,14814,15551,16439,17278,18625,17129,17498,17613,17937,18004,17997,18003,17670
+"091 453 Puotinharju","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,25253,25469,25672,25416,24633,25329,26831,27557,30232,28522,28753,28342,28989,29231,28729,29050,28654
+"091 453 Puotinharju","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13492,13700,13796,13831,13962,14417,15318,16103,17357,16353,16742,16290,16668,16646,16307,16442,16207
+"091 455 Marjaniemi","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,68679,70932,71514,76480,75916,79955,83270,82463,83129,82694,84380,86008,91631,91290,89787,89209,90586
+"091 455 Marjaniemi","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,24716,25390,25716,27517,28386,29533,30798,30419,31232,31213,32328,32965,34898,34678,34294,34836,35587
+"091 456 Roihupelto","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 456 Roihupelto","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 457 Itäkeskus","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,24976,24721,24514,24414,23358,24159,25767,26852,30618,27378,27071,27950,28009,27695,27801,27155,27017
+"091 457 Itäkeskus","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,11823,11912,12112,12048,12153,12595,13197,13904,15741,14192,14308,14625,14833,14532,14672,14396,14173
+"091 702 Myllypuron peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27160,27737,27668,27782,26824,28515,30431,31363,34722,33152,33514,34470,35380,35678,35957,37000,36682
+"091 702 Myllypuron peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12989,13390,13426,13395,13622,14338,15209,15880,17083,16464,17022,17269,17531,17735,17756,17981,17989
+"091 454 Myllypuro","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27160,27737,27668,27782,26824,28515,30431,31363,34722,33152,33514,34470,35380,35678,35957,37000,36682
+"091 454 Myllypuro","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12989,13390,13426,13395,13622,14338,15209,15880,17083,16464,17022,17269,17531,17735,17756,17981,17989
+"091 703 Mellunkylän peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,26365,26625,26716,26663,25698,26684,28319,29532,32666,30016,30304,30771,31252,31358,31293,31020,30477
+"091 703 Mellunkylän peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12365,12525,12630,12695,12760,13167,14014,14827,16147,14841,15257,15538,15729,15721,15711,15583,15295
+"091 471 Kontula","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,24815,25148,25038,24835,24117,24881,26331,27373,30253,27906,27863,28350,28646,28630,28314,28184,27826
+"091 471 Kontula","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12656,12810,12813,12743,12792,13167,13836,14594,15900,14641,14864,15184,15226,15093,14862,14792,14395
+"091 472 Vesala","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,29331,29465,29893,29658,28703,29869,31307,32919,36081,33280,33883,34839,35333,35828,35801,36010,35194
+"091 472 Vesala","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,12447,12532,12777,12721,12781,13247,14134,15015,16272,15057,15715,16103,16324,16460,16536,16695,16410
+"091 473 Mellunmäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27327,27643,27814,27961,26825,27974,29953,31080,33755,31786,31959,32357,33100,32945,33294,32594,31932
+"091 473 Mellunmäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13454,13745,13931,14193,14287,14780,15936,16691,17935,16788,17032,17327,17646,17563,17803,17494,17310
+"091 474 Kivikko","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,25180,25527,26013,26582,25234,26408,28498,29508,33873,29561,30242,30534,30701,31100,30990,30451,30288
+"091 474 Kivikko","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,10164,10379,10572,10907,10872,11278,12077,12815,14433,12657,13249,13399,13631,13912,14024,13746,13769
+"091 475 Kurkimäki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,25685,25626,25075,24776,23772,24760,25822,27565,31317,27867,28696,28507,29250,29342,29272,29017,28254
+"091 475 Kurkimäki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,11118,11178,11175,11349,11607,11791,12504,13639,14916,13416,14116,14137,14400,14360,14314,14025,13611
+"091 704 Vuosaaren peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,28965,29783,29884,30090,29464,31152,33175,34790,38137,35680,35825,36480,37056,37185,36952,36982,36379
+"091 704 Vuosaaren peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,13304,13666,13860,14131,14435,15163,16171,17098,18494,17317,17789,18193,18513,18577,18511,18576,18421
+"091 541 Keski-Vuosaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,27975,28438,28497,28486,27678,28940,30678,32132,35011,32811,33133,33828,34361,34561,34304,34543,33970
+"091 541 Keski-Vuosaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,14073,14125,14200,14435,14492,15003,15875,16743,18032,16989,17470,17958,18341,18450,18287,18445,18340
+"091 542 Nordsjön kartano","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 542 Nordsjön kartano","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 543 Uutela","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 543 Uutela","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 544 Meri-Rastila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,25662,25576,25283,25432,24927,26109,28572,30436,34621,31204,30821,31218,32025,31686,32320,32461,32227
+"091 544 Meri-Rastila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,10835,10798,10784,10883,11347,11568,12712,13683,15207,13817,14181,14303,14608,14497,14929,14976,14930
+"091 545 Kallahti","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,26568,26722,26055,25753,24866,25833,27035,28268,32798,28843,28430,28558,28934,28918,28583,28232,27831
+"091 545 Kallahti","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,11633,11799,11594,11400,11544,11932,12630,13391,15214,13383,13495,13575,13877,13851,13726,13667,13431
+"091 546 Aurinkolahti","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,34397,43001,39704,38146,37650,40840,42222,43946,46578,45489,45980,46313,46983,46892,46647,46186,45773
+"091 546 Aurinkolahti","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,19101,22348,20777,20562,20879,22468,22536,23362,24527,23659,24384,24698,24908,24682,24406,24074,23917
+"091 547 Rastila","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,40939,41175,41702,42496,41781,43119,45624,47677,50190,48385,48801,49511,49714,50077,47881,47962,44795
+"091 547 Rastila","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,16545,16786,17088,17395,17499,18077,19110,20185,21138,20308,20952,21183,21132,21470,21050,21369,20779
+"091 548 Niinisaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 548 Niinisaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 549 Mustavuori","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 549 Mustavuori","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 8 Östersundomin suurpiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,76415,80481,81864,85762,85593,87275,89740,88049,89479,90408
+"091 8 Östersundomin suurpiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,23780,24643,25263,26849,26778,28009,28666,28522,29111,30091
+"091 801 Östersundomin peruspiiri","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,76415,80481,81864,85762,85593,87275,89740,88049,89479,90408
+"091 801 Östersundomin peruspiiri","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,23780,24643,25263,26849,26778,28009,28666,28522,29111,30091
+"091 550 Östersundom","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,62761,64814,64670,65906,66925,67654,67377,66276,67699,63362
+"091 550 Östersundom","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,23012,23418,23215,24887,24865,25354,25219,24869,25675,24351
+"091 560 Salmenkallio","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..
+"091 560 Salmenkallio","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..
+"091 570 Talosaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..
+"091 570 Talosaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..
+"091 580 Karhusaari","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,97090,105559,114088,114874,115225,118785,126254,118402,114699,116549
+"091 580 Karhusaari","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,28816,30123,32989,33472,33486,36076,37876,36240,34254,36526
+"091 591 Landbo","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,78882,85536,88139,95992,96519,99325,99161,99441,102948,108653
+"091 591 Landbo","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,21213,23056,23945,25671,25746,27282,27151,28116,29654,31989
+"091 592 Puroniitty","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..
+"091 592 Puroniitty","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..
+"091 999 Muut","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 999 Muut","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+"091 998 Kantakaupunki","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,30059,30517,30189,30702,30892,32451,34705,36744,40110,37939,39659,40769,41920,44724,43928,45315,45803
+"091 998 Kantakaupunki","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,18297,18702,18546,18938,19107,20125,21470,22628,24481,22994,23907,24465,25020,26171,25864,26576,26896
+"091 997 Esikaupungit","Kunnallisverotuksessa verotettava tulo € / asuntokunta",.,.,.,.,.,.,.,.,31826,32391,32246,32531,32707,34112,36134,38186,40754,38686,39905,40726,41412,40101,42084,42372,41978
+"091 997 Esikaupungit","Kunnallisverotuksessa verotettava tulo € / henkilö",.,.,.,.,.,.,.,.,15593,15978,16014,16295,16504,17275,18329,19333,20619,19590,20236,20657,21006,20061,21275,21430,21305
