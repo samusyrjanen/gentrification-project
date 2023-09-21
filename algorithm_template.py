@@ -10,7 +10,7 @@ print(f'Change from the previous value:\n{change}')
 
 # Calculate the mean change (in the future this would calculate the mean change of all districts that year)
 mean_change = sum(change) / len(change)
-print(f'\nMean change per year: {mean_change}')
+print(f'\nMean of change per year: {mean_change}')
 
 # Difference to the mean change
 difference_to_mean = [income_change - mean_change for income_change in change]
