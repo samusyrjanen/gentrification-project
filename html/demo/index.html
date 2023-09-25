@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base target="_top">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title></title>
+	
+  <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+          crossorigin="">
+  </script>
+
+	<style>
+		body, html {
+			height: 100%;
+			margin: 0;
+		}
+    h1 {
+      font-family: sans-serif;
+      font-size: 16pt;
+      font-weight: bold;
+      text-align: center;
+    }
+    p {
+      font-family: sans-serif;
+      font-size: 12pt;
+      text-align: left;
+    }
+    table {
+      table-layout: fixed;
+      width: 600px;
+    }
+    .leaflet-tile {
+      filter: grayscale(100%);
+    }
+		.leaflet-container {
+			height: 600px;
+			width: 600px;
+			max-width: 100%;
+			max-height: 100%;
+		}
+    .padding-5 {
+      padding: 5px;
+    }
+    .container {
+      margin: auto;
+      width: 600px;
+    }
+	</style>
+</head>
+<body>
+  <div class="container">
+  <table>
+    <tr>
+      <td>
+        <h1>Gentrification per district in Helsinki</h1>
+      </td>
+    </tr>
+    <tr>
+      <td class="padding-5  ">
+        <p>
+        A minimum viable product would be to colour the map with
+        hues based on actual data instead of random numbers
+        (every reload will produce a different map).
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div id="map"></div>
+      </td>
+    </tr>
+  </table>
+  </div>
+
+<script>
+  // Return a (pseudo)random real number between min and max.
+  function rand(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+	const map = L.map('map').setView([60.12, 24.95], 10);
+  const districtsLayer = L.geoJSON(null,
+                                   { onEachFeature: onEachFeature })
+                         .addTo(map);
+
+  // A minimum viable product comes about by replacing this function
+  // with a set coefficients ACTUALLY representing how gentrified each
+  // district is (or is not).
+  function getCoefficient(district) {
+    return rand(-1, 1);
+  }
+
+  // Style a single district based on its "gentrification" coefficient.
+  function getDistrictStyle(district) {
+    coefficient = getCoefficient(district);
+
+    // Red hues for gentrifying districts, and blue hues for the rest.
+    color = coefficient < 0 ? '#051aff' : '#ff0505';
+
+    return {
+      color: 'black',
+      dashArray: 3,
+      fillColor: color,
+      fillOpacity: Math.abs(coefficient),
+      weight: 1
+    }
+  }
+
+  function mouseOver(e) {
+    e.target.setStyle({
+      dashArray: '',
+      weight: 3
+    });
+  }
+
+  function mouseOut(e) {
+    e.target.setStyle({
+      dashArray: 3,
+      weight: 1
+    });
+  }
+
+  // What every feature (in our case that'd be a polygon corresponding to
+  // the borders of a district) should be doing once it's on the map.
+  function onEachFeature(feature, layer) {
+    console.log('onEachFeature');
+    layer.on({
+      mouseover: mouseOver,
+      mouseout: mouseOut
+    })
+  }
+
+  // Style each district according to the level of gentrification.
+  function styleDistrictsLayer(layer, property) {
+    layer.eachLayer(layerInstance => {
+      x = layerInstance.feature.properties[property];
+      layerInstance.setStyle(getDistrictStyle(x));
+    });
+  }
+
+  // Fetch API may not be supported in ancient browsers, but we're not
+  // serving those miserable enough to have a browser from early 2000s.
+  fetch('https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.1.0&request=GetFeature&maxFeatures=300&typename=avoindata:Kaupunginosajako&srsname=EPSG:4326&bbox=2655963.172645998,8360611.663801174,2881730.528285009,8510872.799001848,EPSG:3857&outputFormat=json')
+    .then(r => r.json())
+    .then(j => {
+      districtsLayer.addData(j);
+      styleDistrictsLayer(districtsLayer, 'tunnus');
+  });
+
+	const tiles = L.tileLayer(
+    'https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+		  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }
+  ).addTo(map);
+
+</script>
+</body>
+</html>
