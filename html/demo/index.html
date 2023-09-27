@@ -36,6 +36,20 @@
       table-layout: fixed;
       width: 600px;
     }
+    .info {
+      width: 600px;
+    }
+    .info-box {
+      font-family: sans-serif;
+      font-size: 12pt;
+      text-align: left;
+    }
+    .info-box.data {
+      font-weight: normal;
+    }
+    .info-box.header {
+      font-weight: bold;
+    }
     .leaflet-tile {
       filter: grayscale(100%);
     }
@@ -59,16 +73,29 @@
   <table>
     <tr>
       <td>
-        <h1>Gentrification per district in Helsinki</h1>
+        <h1>Gentrification in Helsinki</h1>
       </td>
     </tr>
     <tr>
-      <td class="padding-5  ">
-        <p>
-        A minimum viable product would be to colour the map with
-        hues based on actual data instead of random numbers
-        (every reload will produce a different map).
-        </p>
+      <td>
+        <table class="info">
+          <tr>
+            <td class="info-box header">District: </td>
+            <td><div class="info-box data" id="info_district"></div></td>
+          </tr>
+          <tr>
+            <td class="info-box header">Latest income per person:</td>
+            <td><div class="info-box data" id="info_latest_income"></div></td>
+          </tr>
+          <tr>
+            <td class="info-box header">Income difference from the mean:</td>
+            <td><div class="info-box data" id="info_income_difference"></div></td>
+          </tr>
+          <tr>
+            <td class="info-box header">Gentrification score:</td>
+            <td><div class="info-box data" id="info_score"></div></td>
+          </tr>
+        </table>
       </td>
     </tr>
     <tr>
@@ -88,7 +115,12 @@
 	const map = L.map('map').setView([60.12, 24.95], 10);
   const districtsLayer = L.geoJSON(null,
                                    { onEachFeature: onEachFeature })
-                         .addTo(map);
+                           .addTo(map);
+  var incomes = null;
+  const info_district = document.getElementById('info_district');
+  const info_latest_income = document.getElementById('info_latest_income');
+  const info_income_difference = document.getElementById('info_income_difference');
+  const info_score = document.getElementById('info_score');
 
   // A minimum viable product comes about by replacing this function
   // with a set coefficients ACTUALLY representing how gentrified each
@@ -114,6 +146,24 @@
   }
 
   function mouseOver(e) {
+    cap = s => s.toLowerCase()
+                .split(' ')
+                .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+                .join(' ')
+                .split('-')
+                .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+                .join('-');
+
+    if (e.target.feature && e.target.feature.properties) {
+      if (e.target.feature.properties.nimi_fi &&
+          e.target.feature.properties.nimi_se)
+        info_district.innerText = cap(e.target.feature.properties.nimi_fi) + " " +
+                                  cap(e.target.feature.properties.nimi_se);
+
+      if (e.target.feature.properties.latest_income)
+        info_latest_income.innerText = e.target.feature.properties.latest_income;
+    }
+
     e.target.setStyle({
       dashArray: '',
       weight: 3
@@ -121,6 +171,12 @@
   }
 
   function mouseOut(e) {
+    if (info_district)
+      info_district.innerText = '';
+
+    if (info_latest_income)
+      info_latest_income.innerText = '';
+
     e.target.setStyle({
       dashArray: 3,
       weight: 1
@@ -130,7 +186,6 @@
   // What every feature (in our case that'd be a polygon corresponding to
   // the borders of a district) should be doing once it's on the map.
   function onEachFeature(feature, layer) {
-    console.log('onEachFeature');
     layer.on({
       mouseover: mouseOver,
       mouseout: mouseOut
@@ -149,10 +204,10 @@
   // serving those miserable enough to have a browser from early 2000s.
   fetch('https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.1.0&request=GetFeature&maxFeatures=300&typename=avoindata:Kaupunginosajako&srsname=EPSG:4326&bbox=2655963.172645998,8360611.663801174,2881730.528285009,8510872.799001848,EPSG:3857&outputFormat=json')
     .then(r => r.json())
-    .then(j => {
-      districtsLayer.addData(j);
+    .then(d => {
+      districtsLayer.addData(d);
       styleDistrictsLayer(districtsLayer, 'tunnus');
-  });
+    });
 
 	const tiles = L.tileLayer(
     'https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
