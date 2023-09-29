@@ -1,0 +1,40 @@
+# %%
+import pandas as pd
+from random import randint
+
+# Data sources
+#
+#   - Inhabitants' median disposable monetary income by postal code area, 2010-2021
+#     https://pxdata.stat.fi:443/PxWeb/sq/39625562-d250-492a-a190-37bcc355e2a3
+#
+#   - Prices per square meter of old dwellings in housing companies and numbers
+#     of transactions by postal code area, yearly, 2009-2022
+#     https://pxdata.stat.fi:443/PxWeb/sq/41826b15-82a9-4c83-8be6-bd77f98b31ac
+#
+
+# Read in what we've got.
+incomes = pd.read_csv('data/003_12f1_2021_20230929-100110.csv', encoding = 'latin1', skiprows = [0, 1])
+prices = pd.read_csv('data/001_13mu_2022_20230929-105546.csv', encoding = 'latin1', skiprows = [0, 1])
+
+# A few peeks in to the data we just read.
+print(f'Income/Price data shape: {incomes.shape}/{prices.shape}\n')
+
+print(incomes.iloc[[randint(0, incomes.shape[0])]].to_string())
+print(prices.iloc[[randint(0, prices.shape[0])]].to_string())
+
+# Drop unwanted columns for ease of use later on.
+incomes.drop('Information', axis = 1, inplace = True)
+prices.drop([ 'Building type', 'Information' ], axis = 1, inplace = True)
+
+# Since we do not have income data for years 2009 and 2022, we don't need pricing data for those either.
+prices.drop([ '2009', '2022' ], axis = 1, inplace = True)
+
+# Ensure column names aren't fluctuating wildly like a warp drive engine.
+incomes.rename(columns = { 'Postal code area': 'Postal code' }, inplace = True)
+
+# A few more peeks into the data, which should now appear more uniform than before.
+print(f'Income/Price data shape: {incomes.shape}/{prices.shape}\n')
+
+code = incomes.iloc[[randint(0, min(incomes.shape[0], prices.shape[0]))]]['Postal code'].values[0]
+print(incomes.loc[incomes['Postal code'] == code])
+print(prices.loc[prices['Postal code'] == code])

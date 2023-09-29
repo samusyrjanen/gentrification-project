@@ -1,0 +1,84 @@
+"13mu -- Prices per square meter of old dwellings in housing companies and numbers of transactions by postal code area, yearly, 2009-2022"
+
+"Postal code","Building type","Information","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022"
+"00100  Helsinki keskusta - Etu-Töölö (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",4470,5104,5744,5898,6092,6003,6313,6138,6772,7098,7259,7773,8094,8357
+"00120  Punavuori - Bulevardi (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",5044,5420,5490,5876,6256,5929,6372,6428,6867,7454,7538,7993,8683,8665
+"00130  Kaartinkaupunki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",5333,5870,6316,6327,6577,6794,...,7474,7487,7960,8084,8588,9480,10691
+"00140  Kaivopuisto - Ullanlinna (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",5060,5563,6245,6120,6597,6418,6700,6930,7415,7704,8425,8416,9311,9147
+"00150  Punavuori - Eira - Hernesaari (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",4811,5220,5807,5951,6125,6348,6285,6464,6909,7571,7872,8243,8715,8683
+"00160  Katajanokka (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",4943,5615,5406,5888,6272,5943,5951,5954,6207,6438,6535,7386,8112,7435
+"00170  Kruununhaka (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",4575,5265,5773,5761,6179,5972,6229,6276,6838,7186,7365,7770,7965,8382
+"00180  Kamppi - Ruoholahti (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",4564,5055,5407,5585,5710,5901,6122,6299,6694,7053,6987,7863,7877,7940
+"00190  Suomenlinna (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",.,.,.,.,.,.,.,...,.,.,.,...,.,...
+"00200  Pohjois-Lauttasaari (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3616,4091,4405,4574,4826,4853,4945,5079,5423,5779,5966,6531,6901,7118
+"00210  Vattuniemi (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",4193,4497,4639,4860,4986,5123,5324,5378,5369,5951,6027,6430,6918,7120
+"00220  Jätkäsaari (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",.,.,.,.,.,.,.,.,...,...,...,7604,8179,8559
+"00240  Länsi-Pasila (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2860,3151,3185,3849,4209,4468,4301,4626,4647,4898,4937,5543,5372,5220
+"00250  Taka-Töölö (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",4257,4608,4904,5061,5288,5291,5499,5721,5990,6257,6590,6839,7117,7021
+"00260  Keski-Töölö (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",4401,4945,5270,5405,5484,5774,5601,5929,6232,6854,6620,7167,7990,7572
+"00270  Pohjois-Meilahti (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3951,4410,4603,4899,5176,5254,5145,5546,5872,6110,6383,6585,6800,6673
+"00280  Ruskeasuo (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3807,4262,4438,4664,4777,5105,4954,5118,5262,5703,5741,6397,6692,6702
+"00290  Meilahden sairaala-alue (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",.,.,...,.,...,...,...,.,.,.,.,.,.,.
+"00300  Pikku Huopalahti (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",...,4717,4177,4143,4652,4501,5765,5464,5982,6544,6049,5791,5631,5731
+"00310  Kivihaka (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2564,3605,2857,3456,3252,3252,3490,4161,4381,4366,4109,...,4921,4886
+"00320  Etelä-Haaga (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3011,3431,3626,3767,4068,4168,4351,4542,4394,4963,4870,5155,5681,5650
+"00330  Munkkiniemi (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3840,4224,4501,4632,4955,5069,5105,5221,5340,5819,5839,6265,6948,6938
+"00340  Kuusisaari - Lehtisaari (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",...,3054,3524,...,...,3608,3598,4039,...,4663,3948,4455,4483,4569
+"00350  Munkkivuori - Niemenmäki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3078,3429,3626,3925,4049,4057,4231,4434,4565,4506,4813,5011,5426,5421
+"00360  Pajamäki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2423,2748,2969,3165,3325,3503,3459,3739,3636,4077,4430,4420,4628,4494
+"00370  Reimarla (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2757,3006,3152,3251,3243,2926,3168,3317,3483,3310,3227,3425,3641,4000
+"00380  Pitäjänmäen yritysalue (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3915,3810,4247,4284,4613,4929,4469,4698,4848,5257,5091,4964,5767,5628
+"00390  Konala (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2469,2708,2697,2902,2854,2989,3037,3077,3168,3275,3453,3653,3829,3787
+"00400  Pohjois-Haaga (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2737,3067,3235,3404,3603,3623,3792,3779,4218,4214,4403,4482,4934,4683
+"00410  Malminkartano (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2345,2472,2612,2695,2857,2675,2731,2635,2772,2904,2777,3462,3304,3185
+"00420  Kannelmäki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2333,2692,2655,2699,2963,2914,3070,2961,3343,3348,3497,3405,3680,3314
+"00430  Maununneva - Kuninkaantammi (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",...,...,...,...,...,...,...,...,.,.,...,...,4370,4736
+"00440  Lassila (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2721,3009,3225,3312,3367,3424,3450,3589,3591,3836,3886,3883,4154,3800
+"00500  Sörnäinen - Harju (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3392,3909,4094,4272,4528,4700,4862,5155,5335,5682,5921,6200,6559,6513
+"00510  Alppila - Vallila (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3386,3800,4011,4161,4546,4548,4668,4950,5259,5734,5811,6129,6628,6667
+"00520  Itä- ja Keski-Pasila (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3141,3490,3648,3911,4369,4238,4487,4678,5385,5605,5316,5757,6194,6444
+"00530  Kallio (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3669,4035,4324,4473,4781,4907,5052,5114,5459,5806,6030,6282,6613,6485
+"00540  Kalasatama - Sompasaari (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",.,.,.,.,.,.,...,...,...,...,...,...,8344,8796
+"00550  Vallila - Hermanni (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3134,3574,3802,3948,4263,4282,4536,4611,5005,5388,5644,5997,6291,5936
+"00560  Toukola - Kumpula - Vanhakaupunki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3831,4356,4506,4571,4843,5065,4910,5291,5541,5471,5649,5953,6391,6263
+"00570  Kulosaari (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3354,3679,3641,4158,4237,4159,4520,4494,5155,5537,5523,5706,5933,6863
+"00580  Kalasatama - Kyläsaari (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",.,...,...,...,...,...,...,...,...,6315,...,...,8191,8540
+"00590  Kruunuvuorenranta (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",.,.,.,.,.,.,.,.,.,...,...,...,5743,...
+"00600  Koskela (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2660,2589,2728,2781,2709,2959,2626,3152,3307,3026,2985,3470,3305,4099
+"00610  Käpylä (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3353,3658,3863,4182,4360,4591,4568,4679,5038,5156,5419,5631,5950,5912
+"00620  Metsälä - Etelä-Oulunkylä (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2725,2878,3041,3164,3573,3838,3639,3610,3942,4070,4191,4575,4564,4659
+"00630  Maunula (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2352,2545,2670,3054,3182,3271,3346,3451,3608,3825,3823,4056,4038,4144
+"00640  Oulunkylä - Patola (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2576,2850,2972,3127,3243,3041,3157,3314,3389,3475,3666,3890,4182,3655
+"00650  Veräjämäki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2675,2798,2913,...,3376,...,3172,3588,...,...,3663,3695,3909,4139
+"00660  Länsi-Pakila (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",...,2572,...,2714,2615,...,...,...,...,...,4231,4751,...,...
+"00670  Paloheinä (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",...,.,.,...,...,...,.,...,.,...,...,...,.,...
+"00680  Itä-Pakila (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",...,...,...,.,...,...,...,...,...,...,...,.,...,.
+"00690  Torpparinmäki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",...,...,...,...,...,...,.,...,...,...,...,...,.,...
+"00700  Malmi (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2530,2787,2896,2910,3013,3037,3204,3202,3380,3137,3222,3414,3400,3396
+"00710  Pihlajamäki - Viikinmäki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2193,2443,2392,2612,2484,2530,2594,2552,2731,2783,2779,2794,2969,2957
+"00720  Pukinmäki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2533,2676,2893,3017,3195,3105,3137,2987,3046,3248,3183,3230,3487,3422
+"00730  Tapanila (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2612,2985,2976,2977,3183,3321,3286,3061,3085,3309,3459,3522,3648,3663
+"00740  Siltamäki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2075,2380,2436,2440,2432,2545,2298,2356,2267,2302,2497,2363,2295,2626
+"00750  Tapulikaupunki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2196,2607,2285,2390,2400,2639,2589,2577,2572,2618,2703,2394,2730,2331
+"00760  Puistola - Heikinlaakso (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2222,1946,2178,...,2450,...,...,2679,...,2481,2618,...,...,...
+"00770  Jakomäki - Alppikylä (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",1859,2029,2015,2217,2155,2205,2206,1919,2085,2061,1967,2216,1991,2113
+"00780  Tapaninvainio (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2667,2842,3112,3014,3033,3074,3086,3231,3220,3499,3339,3234,3329,3579
+"00790  Viikki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3341,3661,3754,3944,4153,4070,3997,4358,4470,4738,4769,4875,5076,5036
+"00800  Länsi-Herttoniemi (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2907,3159,3271,3457,3798,3981,4111,4287,4296,4794,4986,5521,5392,5648
+"00810  Herttoniemenranta (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3288,3768,3981,3935,4343,4441,4609,4701,4698,5011,5317,5619,5551,5856
+"00820  Roihuvuori (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2441,2628,2751,2868,2947,2971,2942,3027,3238,3472,3724,3861,4557,4700
+"00830  Tammisalo (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2821,...,3485,...,3488,3211,2869,3015,...,3741,3625,3627,3505,4213
+"00840  Yliskylä (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2612,2699,2910,3007,3111,3320,3130,3325,3350,3461,3726,3769,4110,4268
+"00850  Jollas (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",.,.,.,.,.,.,.,.,.,.,.,.,.,.
+"00870  Gunillanmäki - Hevossalmi (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2161,2404,2561,2702,2783,2560,2858,2814,2794,...,2848,2852,3081,3477
+"00890  Östersundom (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",.,.,.,.,.,.,.,.,.,.,.,.,.,.
+"00900  Puotinharju (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2278,2423,2501,2579,2877,2969,2929,2964,3086,3192,3170,3357,3183,3090
+"00910  Puotila (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2364,2568,3004,3141,3040,3094,3053,3204,3310,3319,3344,3679,3863,3768
+"00920  Myllypuro (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2046,2335,2420,2611,2738,2822,2644,2779,2938,2915,3059,3168,3335,3390
+"00930  Itäkeskus - Marjaniemi (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2365,2631,2683,2725,3046,3086,3705,3017,2849,3067,2949,2909,3119,2803
+"00940  Kontula - Vesala - Kivikko (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2155,2315,2408,2392,2445,2316,2389,2303,2301,2382,2511,2552,2730,2749
+"00950  Vartioharju (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2479,2853,2794,3166,2813,2995,3485,3103,3173,...,...,3383,3985,3772
+"00960  Pohjois-Vuosaari (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2219,2309,2393,2514,2689,2732,2797,2797,2905,2910,3027,3074,3096,2935
+"00970  Mellunmäki (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2324,2469,2485,2576,2589,2532,2474,2409,2560,2397,2480,2440,2645,2996
+"00980  Etelä-Vuosaari (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",2564,2685,2681,2725,3023,3158,3342,3218,3327,3242,3371,3459,3452,3411
+"00990  Aurinkolahti (Helsinki)","Blocks of flats, two-room flat","Price per square meter (EUR/m2)",3744,3931,3934,4270,4418,4394,4523,4577,4741,4907,4958,5128,5256,5252
