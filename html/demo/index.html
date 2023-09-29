@@ -80,16 +80,8 @@
       <td>
         <table class="info">
           <tr>
-            <td class="info-box header">District: </td>
-            <td><div class="info-box data" id="info_district"></div></td>
-          </tr>
-          <tr>
-            <td class="info-box header">Latest income per person:</td>
-            <td><div class="info-box data" id="info_latest_income"></div></td>
-          </tr>
-          <tr>
-            <td class="info-box header">Income difference from the mean:</td>
-            <td><div class="info-box data" id="info_income_difference"></div></td>
+            <td class="info-box header">Area: </td>
+            <td><div class="info-box data" id="info_area"></div></td>
           </tr>
           <tr>
             <td class="info-box header">Gentrification score:</td>
@@ -112,15 +104,11 @@
     return Math.random() * (max - min) + min;
   }
 
-	const map = L.map('map').setView([60.12, 24.95], 10);
-  const districtsLayer = L.geoJSON(null,
+	const map = L.map('map').setView([60.12, 24.95], 9);
+  const postalCodeLayer = L.geoJSON(null,
                                    { onEachFeature: onEachFeature })
                            .addTo(map);
-  var incomes = null;
-  const info_district = document.getElementById('info_district');
-  const info_latest_income = document.getElementById('info_latest_income');
-  const info_income_difference = document.getElementById('info_income_difference');
-  const info_score = document.getElementById('info_score');
+  const info_area = document.getElementById('info_area');
 
   // A minimum viable product comes about by replacing this function
   // with a set coefficients ACTUALLY representing how gentrified each
@@ -130,7 +118,7 @@
   }
 
   // Style a single district based on its "gentrification" coefficient.
-  function getDistrictStyle(district) {
+  function getPostalCodeAreaStyle(district) {
     coefficient = getCoefficient(district);
 
     // Red hues for gentrifying districts, and blue hues for the rest.
@@ -155,13 +143,15 @@
                 .join('-');
 
     if (e.target.feature && e.target.feature.properties) {
-      if (e.target.feature.properties.nimi_fi &&
-          e.target.feature.properties.nimi_se)
-        info_district.innerText = cap(e.target.feature.properties.nimi_fi) + " " +
-                                  cap(e.target.feature.properties.nimi_se);
-
-      if (e.target.feature.properties.latest_income)
-        info_latest_income.innerText = e.target.feature.properties.latest_income;
+      if (e.target.feature.properties.Nimi &&
+          e.target.feature.properties.Nimi_Ru) {
+        info_area.innerText = 
+           e.target.feature.properties.Posno
+           + " " +
+           cap(e.target.feature.properties.Nimi)
+           + " " +
+           cap(e.target.feature.properties.Nimi_Ru);
+      }
     }
 
     e.target.setStyle({
@@ -171,11 +161,8 @@
   }
 
   function mouseOut(e) {
-    if (info_district)
-      info_district.innerText = '';
-
-    if (info_latest_income)
-      info_latest_income.innerText = '';
+    if (info_area)
+      info_area.innerText = '';
 
     e.target.setStyle({
       dashArray: 3,
@@ -193,20 +180,20 @@
   }
 
   // Style each district according to the level of gentrification.
-  function styleDistrictsLayer(layer, property) {
+  function stylePostalCodeLayer(layer, property) {
     layer.eachLayer(layerInstance => {
       x = layerInstance.feature.properties[property];
-      layerInstance.setStyle(getDistrictStyle(x));
+      layerInstance.setStyle(getPostalCodeAreaStyle(x));
     });
   }
 
   // Fetch API may not be supported in ancient browsers, but we're not
   // serving those miserable enough to have a browser from early 2000s.
-  fetch('https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.1.0&request=GetFeature&maxFeatures=300&typename=avoindata:Kaupunginosajako&srsname=EPSG:4326&bbox=2655963.172645998,8360611.663801174,2881730.528285009,8510872.799001848,EPSG:3857&outputFormat=json')
+  fetch('PKS_postinumeroalueet_2023_shp.json')
     .then(r => r.json())
     .then(d => {
-      districtsLayer.addData(d);
-      styleDistrictsLayer(districtsLayer, 'tunnus');
+      postalCodeLayer.addData(d);
+      stylePostalCodeLayer(postalCodeLayer, 'Posno');
     });
 
 	const tiles = L.tileLayer(
