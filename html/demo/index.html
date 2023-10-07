@@ -17,85 +17,52 @@
   </script>
 
 	<style>
-		body, html {
-			height: 100%;
-			margin: 0;
-		}
-    h1 {
-      font-family: sans-serif;
-      font-size: 16pt;
-      font-weight: bold;
-      text-align: center;
-    }
-    p {
-      font-family: sans-serif;
-      font-size: 12pt;
-      text-align: left;
-    }
-    table {
-      table-layout: fixed;
-      width: 600px;
-    }
-    .info {
-      width: 600px;
-    }
-    .info-box {
-      font-family: sans-serif;
-      font-size: 12pt;
-      text-align: left;
-    }
-    .info-box.data {
-      font-weight: normal;
-    }
-    .info-box.header {
-      font-weight: bold;
-    }
-    .leaflet-tile {
-      filter: grayscale(100%);
-    }
+    .center { text-align: center; }
+    .hr { border-bottom: 1px solid; }
+    .leaflet-tile { filter: grayscale(100%); }
+    .left { float: left; }
 		.leaflet-container {
 			height: 600px;
 			width: 600px;
 			max-width: 100%;
 			max-height: 100%;
 		}
-    .padding-5 {
-      padding: 5px;
-    }
-    .container {
-      margin: auto;
+    .parent {
+      clear: both;
+      font-family: sans-serif;
+      font-size: 11pt;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 5px;
+      padding-top: 5px;
       width: 600px;
+    }
+    .side-padded {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .right { float: right; }
+    .title {
+      font-size: 16pt;
+      font-weight: bold;
     }
 	</style>
 </head>
 <body>
-  <div class="container">
-  <table>
-    <tr>
-      <td>
-        <h1>Gentrification in Helsinki</h1>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <table class="info">
-          <tr>
-            <td class="info-box header">Area: </td>
-            <td><div class="info-box data" id="info_area"></div></td>
-          </tr>
-          <tr>
-            <td class="info-box header">Gentrification score:</td>
-            <td><div class="info-box data" id="info_score"></div></td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <div id="map"></div>
-      </td>
-    </tr>
-  </table>
+
+  <div class="parent center hr">
+    <span class="title">Gentrification in Helsinki</span>
+  </div>
+  <div class="parent">
+    <span class="left side-padded">Area:</span>
+    <span class="right side-padded" id="info_area"></span>
+  </div>
+  <div class="parent">
+    <span class="left side-padded">Gentrification Score:</span>
+    <span class="right side-padded" id="info_score"></span>
+  </div>
+  <div class="parent">
+    <div class="map" id="map">
   </div>
 
 <script>
@@ -104,31 +71,23 @@
     return Math.random() * (max - min) + min;
   }
 
-	const map = L.map('map').setView([60.12, 24.95], 9);
+	const map = L.map('map').setView([60.20, 25.02], 11);
   const postalCodeLayer = L.geoJSON(null,
                                    { onEachFeature: onEachFeature })
                            .addTo(map);
   const info_area = document.getElementById('info_area');
-
-  // A minimum viable product comes about by replacing this function
-  // with a set coefficients ACTUALLY representing how gentrified each
-  // district is (or is not).
-  function getCoefficient(district) {
-    return rand(-1, 1);
-  }
+  const info_score = document.getElementById('info_score');
 
   // Style a single district based on its "gentrification" coefficient.
-  function getPostalCodeAreaStyle(district) {
-    coefficient = getCoefficient(district);
-
+  function getPostalCodeAreaStyle(score) {
     // Red hues for gentrifying districts, and blue hues for the rest.
-    color = coefficient < 0 ? '#051aff' : '#ff0505';
+    color = score < 0 ? '#051aff' : '#ff0505';
 
     return {
       color: 'black',
       dashArray: 3,
       fillColor: color,
-      fillOpacity: Math.abs(coefficient),
+      fillOpacity: Math.abs(score),
       weight: 1
     }
   }
@@ -151,6 +110,7 @@
            cap(e.target.feature.properties.Nimi)
            + " " +
            cap(e.target.feature.properties.Nimi_Ru);
+        info_score.innerText = e.target.feature.properties.score;
       }
     }
 
@@ -189,11 +149,35 @@
 
   // Fetch API may not be supported in ancient browsers, but we're not
   // serving those miserable enough to have a browser from early 2000s.
-  fetch('PKS_postinumeroalueet_2023_shp.json')
+  fetch('gentrification.json')
     .then(r => r.json())
-    .then(d => {
-      postalCodeLayer.addData(d);
-      stylePostalCodeLayer(postalCodeLayer, 'Posno');
+    .then(j => {
+      fetch('PKS_postinumeroalueet_2023_shp.json')
+       .then(r => r.json())
+       .then(d => {
+         // Prune out all but Helsinki proper.
+         d.features = d.features.filter(x => {
+           return x.properties.Posno.startsWith('00')
+         });
+
+         d.features.forEach(x => {
+           console.log(x.properties.Posno);
+           if (j[x.properties.Posno])
+             console.log(j[x.properties.Posno].Score);
+         });
+         // Extract "gentrification scores".
+         d.features.map(x => {
+           if (x.properties.Posno && j[x.properties.Posno])
+             x.properties.score = j[x.properties.Posno].Score;
+           else
+             x.properties.score = 0;
+
+           return x;
+         });
+
+         postalCodeLayer.addData(d);
+         stylePostalCodeLayer(postalCodeLayer, 'score');
+       });
     });
 
 	const tiles = L.tileLayer(
