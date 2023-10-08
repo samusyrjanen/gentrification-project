@@ -17,7 +17,19 @@
   </script>
 
 	<style>
+    .aired { margin: 5px; }
+    .blue { background-color: #051aff; }
+    .bottom { margin: 5px; }
     .center { text-align: center; }
+    .dot {
+      border-radius: 50%;
+      display: inline-block;
+      height: 10px;
+      opacity: 0.8;
+      padding: 2px;
+      text-align: center;
+      width: 10px;
+    }
     .hr { border-bottom: 1px solid; }
     .leaflet-tile { filter: grayscale(100%); }
     .left { float: left; }
@@ -33,10 +45,16 @@
       font-size: 11pt;
       margin-left: auto;
       margin-right: auto;
-      padding-bottom: 5px;
       padding-top: 5px;
+      vertical-align: middle;
       width: 600px;
     }
+    .parent span {
+      margin-left: 5px;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+    .red { background-color: #ff0505; }
     .side-padded {
       padding-left: 10px;
       padding-right: 10px;
@@ -61,8 +79,20 @@
     <span class="left side-padded">Gentrification Score:</span>
     <span class="right side-padded" id="info_score"></span>
   </div>
+  <div class="parent center aired">
+    <span class="dot blue"></span><span>Decreasing Afflucence</span>
+    <span class="dot red"></span><span>Increasing Afflucence</span>
+  </div>
   <div class="parent">
     <div class="map" id="map">
+  </div>
+  <div class="bottom">
+    Three datasets used on this page have been derived from
+    open data sets <a href="https://pxdata.stat.fi/PxWeb/pxweb/en/Postinumeroalueittainen_avoin_tieto/Postinumeroalueittainen_avoin_tieto__uusin/paavo_pxt_12f1.px/">12f1</a> and <a href="https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__ashi/statfin_ashi_pxt_13mu.px/">13mu</a> released by
+    <a href="https://stat.fi/index_en.html">Statistics Finland</a>,
+    and an open data set
+    <a href="https://hri.fi/data/en_GB/dataset/paakaupunkiseudun-postinumeroalueet">Helsinki Metropolitan Postal Code Areas</a> released by
+    <a href="https://hri.fi/en_gb/">Helsinki Region Infoshare</a>.
   </div>
 
 <script>
@@ -149,10 +179,10 @@
 
   // Fetch API may not be supported in ancient browsers, but we're not
   // serving those miserable enough to have a browser from early 2000s.
-  fetch('gentrification.json')
+  fetch('data/gentrification.json')
     .then(r => r.json())
     .then(j => {
-      fetch('PKS_postinumeroalueet_2023_shp.json')
+      fetch('data/PKS_postinumeroalueet_2023_shp.json')
        .then(r => r.json())
        .then(d => {
          // Prune out all but Helsinki proper.
@@ -160,11 +190,6 @@
            return x.properties.Posno.startsWith('00')
          });
 
-         d.features.forEach(x => {
-           console.log(x.properties.Posno);
-           if (j[x.properties.Posno])
-             console.log(j[x.properties.Posno].Score);
-         });
          // Extract "gentrification scores".
          d.features.map(x => {
            if (x.properties.Posno && j[x.properties.Posno])
