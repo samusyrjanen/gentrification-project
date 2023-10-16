@@ -30,6 +30,9 @@
       text-align: center;
       width: 10px;
     }
+    .hidden {
+      display: none;
+    }
     .hr { border-bottom: 1px solid; }
     .leaflet-tile { filter: grayscale(100%); }
     .left { float: left; }
@@ -75,13 +78,18 @@
     <span class="left side-padded">Area:</span>
     <span class="right side-padded" id="info_area"></span>
   </div>
-  <div class="parent">
+  <div class="parent hidden">
     <span class="left side-padded">Gentrification Score:</span>
     <span class="right side-padded" id="info_score"></span>
   </div>
   <div class="parent center aired">
-    <span class="dot blue"></span><span>Decreasing Afflucence</span>
-    <span class="dot red"></span><span>Increasing Afflucence</span>
+    <span class="dot blue"></span><span>Decreasing</span>
+    <span class="dot red"></span><span>Increasing</span>
+    <span>Darker/Lighter hue: Decrease/Increase more/less.</span>
+  </div>
+  <div class="parent center">
+    Avoid blue areas, buy in light red areas, sell in dark red areas.
+  </div>
   </div>
   <div class="parent">
     <div class="map" id="map">
