@@ -5,12 +5,12 @@ Project team: Michaela Söderholm, Sami Laine, and Samu Syrjänen.
 ## Motivation Behind the Mini Project and the Initial Plan
 
 In real estate a common profit maximisation strategy is to try and make purchaces
-in an area which is about to gentrify, then renovate properties bought to sell
-them once gentrification is in full swing. The strategy has been shown to produce
-increase profits by several percentage points over purchaces made without considering
+in an area which is about to gentrify, then renovate properties bought, and finally
+sell them once gentrification is in full swing. The strategy has been shown to produce
+an increase in profits by several percentage points over purchaces made without considering
 gentrification.
 
-Thus, a real estate speculator faces the following problem of finding areas
+Thus, a real estate speculator faces the problem of finding areas
 about to gentrify. Though statistical data of e.g. incomes and housing prices is
 available, shifting through all the timeseries found in the data is not only
 time consuming but also far from what a real estate speculator should be doing,
@@ -19,9 +19,10 @@ bought, and so on.
 
 One solution to this problem is to digest available statistical data and produce
 a visualisation, a map, on which each city district or similar divisions of the
-area are show in terms of how gentrified they might be in the near future. The
-initial plan was to "somehow find suitable income and other data, and then produce
-a coloured map showing how gentrified each city district might be".
+area are show in terms of how gentrified they might be in the near future. So,
+the initial plan this mini project was "to somehow find suitable income and other
+data, and then produce a coloured map showing how gentrified each city district
+might be".
 
 ## Reflections on the Initial Plan
 
@@ -29,7 +30,7 @@ The initial plan turned out to be workable, as several suitable data sets were
 found to be openly available. When it came to data sets, the only problem seemed
 to be the problem of abundance: For example historical time series of household
 and personal taxable income were found from multiple data providers, one of which
-partitioned Helsinki by city district and another doing partition by postal code
+partitioned Helsinki by city district and another partitioning Helsinki by postal code
 areas. Another problem was to decide which data sets were the most relevant.
 For instance, income data obviously is crucial, and housing price data probably
 is important, but how important it is to know the average household size
@@ -38,7 +39,11 @@ than the poor?
 
 After some back and forth, the team settled with producing a minimum viable
 product with either one or two data sets. It'd be much easier to add more
-data sets later once there's something working to improve upon.
+data sets later once there's something working to improve upon. During
+initial exploratory data analysis, a data set describing historical income
+levels per person and a data set describing two room apartment square meter
+prices, both partitioned by postal code area, were selected to be a starting
+point.
 
 ## And Towards a Production Quality Delivery
 
@@ -49,10 +54,13 @@ is not entirely inusable (or inutile), and with the following improvements
 the result could be improved to be more than a proof of concept:
 
 * Inflation together with its effects on incomes and real estate prices should
-be taken into account when computing predictions (incomes and prices rise in tandem
-with inflation, and increases equivalent to general inflation do not indicate
-gentrification).
+be taken into account when computing predictions. Because incomes and prices rise in tandem
+with inflation, increases equivalent to general inflation do not indicate
+gentrification or respective decreases a lack of gentrification.
 * The backend should fetch data automatically instead of relying on a human fetching the data.
+Together with [GitHub Actions](https://github.com/features/actions) this would allow
+data sets to be updated and gentrification predictions computed automatically as often
+as need be.
 * More data sets should be used. For example, statistics about health service usage might help
 as it's a known fact how the poor are more and more often sick than the rich.
 
@@ -62,21 +70,26 @@ as it's a known fact how the poor are more and more often sick than the rich.
 
 The main data collection tool used was actually not a data collection tool at all.
 In order to locate data sets which might be helpful in the mini project, simple
-Google searches were used to locate suitable data sets. The team decided to use
-only two data sets, one describing historical income fluctuations and another
-describing historical real estate prices.
+Google searches were used to locate suitable data sets. As mentioned above, the team
+decided to use only two data sets, one describing historical income fluctuations and another
+describing historical changes in two room apartment prices (per square metre).
+In order to produce communicate results as intended, i.e. a map visualisation,
+border information about postal code areas in Helsinki (city proper) was also located
+using the same methodology as with other data sets.
 
-Once the suitable data sets were identified, they (see [../data/README.md](../data/README.md)),
+Once the suitable data sets were identified (see [../data/README.md](../data/README.md)),
 they were downloaded manually. Though it could've been possible to automate this step,
-it seemed unnecessary as the mini project is presumed to be a proof of concept instead of
+it seemed unnecessary as the mini project is presumed to be more like a proof of concept instead of
 "a fully finished production quality delivery"; so, it seemed like time would be better
 spent on other aspects of the mini project.
 
 ### Preprocessing and Machine Learning
 
-It turned out that a GeoJSON featurecollection describing borders of postal code areas
-in Helsinki was not available, so instead a shapefile containing similar information was
-used. The shapefile was converted into a GeoJSON featurecollection using a Python Library
+Because the team had planned to use a JavaScript library for visualisations and
+a GeoJSON featurecollection describing borders of postal code areas in Helsinki
+was not (readily) available, but a shapefile containing similar information was to be found,
+some minimal preprocessing had to be done.
+The shapefile was converted into a GeoJSON featurecollection using a Python Library
 [GeoPandas](https://geopandas.org/), which offered a ready-to-use function `.to_json()`
 and there wasn't more to it.
 
@@ -107,21 +120,22 @@ for opacity in Cascading Style Sheets being on the interval [0,1]).
 
 ### Visualisations and Communication of Results
 
-In order to communicate results to the intended target audience, a single web page
-with an interactive map was produced. The map is coloured using two colours, blue and
+In order to communicate results to the intended target audience,
+[a single web page with an interactive map was produced](https://samusyrjanen.github.io/gentrification-project/).
+The map is coloured using two colours, blue and
 red, in varying hues: Colours indicate whether an area is predicted to be less (blue)
 or more (red) gentrified in the future and the hue indicates how big the change
 is predicted to be.
 
 The technical implementation relies heavily on [Leaflet](https://leafletjs.com/),
 a JavaScript library providing everything needed to build a mapping application.
-In order to implement a map showing gentrification predictions, the team only needed
-to find a GeoJSON featurecollection with postal code area borders and produce
-a JSON file with gentrification predictions. The GeoJSON and JSON data are first
-read using
-[the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-and once read, they're mashed together to produce a map communicating the
-results.
+The implementation is a "classic" mashup: GeoJSON featurecollection containing
+postal code area border information is used together with gentrification predictions
+to display a coloured map, once both have been loaded using
+[the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
+To avoid cluttering the map with too much information, each postal code area
+is an active element which activates display of postal code area name above
+the map when mouse pointer hovers over it or it is tapped on a touchscreen.
 
 ### Building the Platform
 
