@@ -20,7 +20,7 @@ bought, and so on.
 One solution to this problem is to digest available statistical data and produce
 a visualisation, a map, on which each city district or similar divisions of the
 area are show in terms of how gentrified they might be in the near future. So,
-the initial plan this mini project was "to somehow find suitable income and other
+the initial plan for this mini project was "to somehow find suitable income and other
 data, and then produce a coloured map showing how gentrified each city district
 might be".
 
@@ -73,7 +73,7 @@ In order to locate data sets which might be helpful in the mini project, simple
 Google searches were used to locate suitable data sets. As mentioned above, the team
 decided to use only two data sets, one describing historical income fluctuations and another
 describing historical changes in two room apartment prices (per square metre).
-In order to produce communicate results as intended, i.e. a map visualisation,
+In order to communicate results as intended, i.e. a map visualisation,
 border information about postal code areas in Helsinki (city proper) was also located
 using the same methodology as with other data sets.
 
@@ -109,9 +109,9 @@ As suggested by one of the teaching assistants, in order to produce a prediction
 gentrification for each postal code area, first an
 [autoregressive integrated moving average model](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average)
 (ARIMA) model was trained separately on historical income and real estate price data
-from each postal code area. Then each model was used to produce two predictions,
-one for future income levels and another for future real estate prices, for each
-postal code area. Finally, the two predictions were used to compute percentage
+from each postal code area. Then both models were used to produce a prediction,
+one for future income level changes and another for future real estate price changes,
+for each postal code area. Finally, the two predictions were used to compute percentage
 difference between the last item in each time series in each postal code area,
 and the mean of the percentages was taken to be a "gentrification percentage score".
 Since the value thus obtained lands on the interval [0,100], it could
