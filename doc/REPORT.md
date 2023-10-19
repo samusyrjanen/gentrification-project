@@ -114,9 +114,9 @@ one for future income level changes and another for future real estate price cha
 for each postal code area. Finally, the two predictions were used to compute percentage
 difference between the last item in each time series in each postal code area,
 and the mean of the percentages was taken to be a "gentrification percentage score".
-Since the value thus obtained lands on the interval [0,100], it could
+Since the value thus obtained lands on the interval [-100, 100], it could
 be used easily to change opaqueness of colouring on the visualisation (values
-for opacity in Cascading Style Sheets being on the interval [0,1]).
+for opacity in Cascading Style Sheets being on the interval [0, 1]).
 
 ### Visualisations and Communication of Results
 

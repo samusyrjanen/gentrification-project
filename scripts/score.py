@@ -150,7 +150,7 @@ results['Percent Change'] = results.apply(lambda _: (_['Delta Percent_x'] + _['D
 
 # Turn the mean of percentage changes into a "gentrification score" with the trusty old logistic
 # sigmoid function (w/ a vertical stretch and a vertical shift to get on the desired interval).
-stretch = results['Percent Change'].map(lambda _: abs(_)).max()
+stretch = results['Percent Change'].map(lambda _: abs(_)).max() / 2
 results['Score'] = results['Percent Change'].map(lambda _: ((1 / (1 + np.exp(-(_/stretch)))) * 2) - 1)
 results.index = results['Postal code']
 
