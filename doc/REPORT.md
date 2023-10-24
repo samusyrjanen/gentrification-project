@@ -62,7 +62,9 @@ Together with [GitHub Actions](https://github.com/features/actions) this would a
 data sets to be updated and gentrification predictions computed automatically as often
 as need be.
 * More data sets should be used. For example, statistics about health service usage might help
-as it's a known fact how the poor are more and more often sick than the rich.
+as it's a known fact how the poor are more and more often sick than the rich; additionally,
+the number of Airbnb flats available in each city section could be of some help as poorer
+areas probably wouldn't have as much such offerings as richer areas might.
 
 ## Technical Description
 
